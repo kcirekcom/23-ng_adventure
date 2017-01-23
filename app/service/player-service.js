@@ -22,7 +22,7 @@ function playerService($window, $q, $log, mapService, selectBoxService) {
   let history = service.history = [
     {
       turn,
-      desc: 'Welcome to Zombie Escape!',
+      desc: 'Zombies have taken over your city! You are on your own and you must escape! Make sure that you stay on course or you will become the next zombie meal...',
       location: 'city',
       hp: player.hp
     }
