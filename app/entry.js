@@ -4,6 +4,9 @@ const angular = require('angular');
 
 angular.module('ngAdventure', []);
 
+// styles
+require('./scss/lib/main.scss');
+
 // services
 require('./service/map-service.js');
 require('./service/select-box-service.js');

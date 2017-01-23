@@ -1,0 +1,40 @@
+body {
+  font-family: helvetica;
+  font-size: 2vw;
+  background: $brand-primary;
+}
+
+button {
+  width: $box-sm;
+  background: $btn-primary;
+  color: $white;
+  border: none;
+  border-radius: 3px;
+  margin-left: $gutter-std + 2%;
+  cursor: pointer;
+  transition: 350ms all;
+
+  &:hover {
+    background: $btn-hover;
+    color: $black;
+  }
+}
+
+label {
+  float: left;
+}
+
+select {
+  width: $box-sm;
+  margin-left: $gutter-std + 2%;
+  margin-bottom: $gutter-std;
+}
+
+input[type="text"] {
+  float: left;
+  width: $box-sm;
+  border: none;
+  border-radius: 3px;
+  margin-left: $gutter-std + 2%;
+  margin-bottom: $gutter-std;
+}
