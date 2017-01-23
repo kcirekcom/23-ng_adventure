@@ -6,3 +6,4 @@ angular.module('ngAdventure', []);
 
 require('./service/map-service.js');
 require('./service/select-box-service.js');
+require('./service/player-service.js');
