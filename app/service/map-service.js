@@ -34,7 +34,7 @@ function mapService($log) {
       west: 'You cannot escape the quicksand!'
     },
     trail: {
-      desc: 'So far you have stayed on course and only a couple days away from the next town... But you are becoming very tired and hungry, which is impacting your better judgment and causing you to hallucinate. Fight it!',
+      desc: 'So far you have stayed on course and are only a couple days away from the next town... But you are becoming very tired and hungry, which is impacting your better judgment and causing you to hallucinate. Fight it!',
       west: 'jungle',
       east: 'pass'
     },
