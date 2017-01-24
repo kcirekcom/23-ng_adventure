@@ -12,7 +12,7 @@ function mapService($log) {
 
   service.mapData = {
     city: {
-      desc: 'Zombies have taken over your city! You are on your own and you must escape! Make sure that you stay on course or you will become the next zombie meal...',
+      desc: 'Zombies have taken over your city! You are on your own and you must escape! Make sure that you stay on course or you might become the next zombie meal...',
       north: 'exit'
     },
     exit : {

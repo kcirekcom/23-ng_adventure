@@ -1,4 +1,6 @@
 <section class="gamepad">
+  <h2>Game Controller</h2>
+
   <form name="gamepad" novalidate>
     <label for="direction">Choose your direction:</label>
     <select ng-model="gamePadCtrl.selectBoxService.moveDirection">
@@ -6,7 +8,7 @@
         {{ direction }}
       </option>
     </select>
-    <button type="button" ng-click="gamePadCtrl.movePlayer()">Move Player</button>
-    <button type="button" ng-click="gamePadCtrl.resetGame()">Reset Game</button>
+    <button type="button" ng-click="gamePadCtrl.movePlayer()">Move</button>
+    <button type="button" ng-click="gamePadCtrl.resetGame()">Reset</button>
   </form>
 </section>
